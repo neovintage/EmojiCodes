@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'EmojiCodes' target in the 'EmojiCodes' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "TextualApplication.h"
+    #import "NSString+Emojize.h"
+#endif
